@@ -15,7 +15,7 @@ function formSubmit(event) {
 
   if (validateForm(dataObject)) {
     console.log(dataObject);
-    forrm.reset();
+    form.reset();
   } else {
     alert("All fields must be filled");
   }
